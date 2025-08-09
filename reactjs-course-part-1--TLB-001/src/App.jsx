@@ -21,10 +21,11 @@ function App() {
       {/* <Embedding /> */}
       {/* <ProductInfo /> */}
       {/* <Lists /> */}
-      <Props  name={"Abdul"}/>
+      {/* <Props  name={"Abdul"}/>
       <PropsChildren>
         <h1>Hello</h1>
-      </PropsChildren>
+      </PropsChildren> */}
+      
     </>
   )
 }
