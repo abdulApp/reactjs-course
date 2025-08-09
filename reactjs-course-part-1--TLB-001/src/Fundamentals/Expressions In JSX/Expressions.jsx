@@ -9,7 +9,7 @@ const Expressions = () => {
         <p>2 + 2 = {2 + 2}</p>
         <h1>{name}</h1>
         <p>2 * 2 = {multiply(2, 2)}</p>
-        <p className={specialClass}>This is special class</p>
+        <p className={specialClass}>This is special class "open the inspect to see the class"</p>
     </section>
   )
 }
