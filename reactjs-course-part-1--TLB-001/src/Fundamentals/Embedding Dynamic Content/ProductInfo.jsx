@@ -21,6 +21,7 @@ const ProductInfo = () => {
         <p>Current Date: {new Date().toLocaleDateString()}</p>
         <p>Current Time: {new Date().toLocaleTimeString()}</p>
         <p>Current Year: {new Date().getFullYear()}</p>
+        <p>Current Month: {new Date().toLocaleString('default', { month: 'long' })}</p>
     </div>
   )
 }
