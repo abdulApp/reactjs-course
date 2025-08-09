@@ -14,6 +14,7 @@ const ProductInfo = () => {
     <div>
         <h1>{product.name}</h1>
         <p>Price: ${product.price.toFixed(2)}</p>
+        <p>{product.inStock ? 'In Stock' : 'Out of Stock'}</p>
     </div>
   )
 }
