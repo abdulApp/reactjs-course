@@ -4,6 +4,7 @@ const Expressions = () => {
   return (
     <section>
         <p>2 + 2 = {2 + 2}</p>
+        <h1></h1>
     </section>
   )
 }
