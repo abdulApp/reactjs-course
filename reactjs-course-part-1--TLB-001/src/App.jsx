@@ -8,6 +8,7 @@ import JSX from './Fundamentals/JSX/JSX'
 import WelcomeMessage from './Fundamentals/JSX/WelcomeMessage'
 import Lists from './Fundamentals/Lists/Lists'
 import Props from './Fundamentals/props/Props'
+import PropsChildren from './Fundamentals/PropsChildren/PropsChildren'
 
 function App() {
 
@@ -21,6 +22,9 @@ function App() {
       {/* <ProductInfo /> */}
       {/* <Lists /> */}
       <Props  name={"Abdul"}/>
+      <PropsChildren>
+        <h1>Hello</h1>
+      </PropsChildren>
     </>
   )
 }
