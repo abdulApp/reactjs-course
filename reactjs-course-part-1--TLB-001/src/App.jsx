@@ -19,7 +19,7 @@ function App() {
       {/* <Expressions /> */}
       {/* <Embedding /> */}
       {/* <ProductInfo /> */}
-      <Lists />
+      {/* <Lists /> */}
       <Props />
     </>
   )
