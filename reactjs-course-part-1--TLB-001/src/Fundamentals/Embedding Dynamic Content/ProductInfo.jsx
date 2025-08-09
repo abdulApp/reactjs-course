@@ -13,6 +13,7 @@ const ProductInfo = () => {
   return (
     <div>
         <h1>{product.name}</h1>
+        <p>Price: ${product.price.toFixed(2)}</p>
     </div>
   )
 }
