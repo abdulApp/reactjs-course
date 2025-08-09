@@ -13,7 +13,7 @@ function App() {
       {/* <Greeting /> */}
       {/* <JSX /> */}
       {/* <WelcomeMessage /> */}
-      <Expressions />
+      {/* <Expressions /> */}
       <Embedding />
     </>
   )
