@@ -6,6 +6,7 @@ import ProductInfo from './Fundamentals/Embedding Dynamic Content/ProductInfo'
 import Expressions from './Fundamentals/Expressions In JSX/Expressions'
 import JSX from './Fundamentals/JSX/JSX'
 import WelcomeMessage from './Fundamentals/JSX/WelcomeMessage'
+import Lists from './Fundamentals/Lists/Lists'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       {/* <Expressions /> */}
       {/* <Embedding /> */}
       {/* <ProductInfo /> */}
+      <Lists />
     </>
   )
 }
