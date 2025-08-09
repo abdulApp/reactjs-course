@@ -19,6 +19,7 @@ const ProductInfo = () => {
         <p>Release Date: {product.releaseDate.toLocaleDateString()}</p>
         <p>Ratings: {product.ratings} stars</p>
         <p>Current Date: {new Date().toLocaleDateString()}</p>
+        <p>Current Time: {new Date().toLocaleTimeString()}</p>
     </div>
   )
 }
