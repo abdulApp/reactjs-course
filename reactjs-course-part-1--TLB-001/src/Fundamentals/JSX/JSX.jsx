@@ -2,7 +2,13 @@ import React from 'react'
 
 const JSX = () => {
   return (
-    <div>JSX</div>
+    <section id='section'>
+        <h1>My Website</h1>
+        <article>
+            <h2>Welcome to React</h2>
+            <p></p>
+        </article>
+    </section>
   )
 }
 
