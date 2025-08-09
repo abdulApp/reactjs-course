@@ -3,7 +3,9 @@ import React from 'react'
 const Embedding = () => {
     const greet = 'Hello, World!';
   return (
-    <div>Embedding</div>
+    <div>
+        <h1>{greet}</h1>
+    </div>
   )
 }
 
