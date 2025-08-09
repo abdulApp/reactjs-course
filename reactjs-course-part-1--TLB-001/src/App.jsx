@@ -15,7 +15,7 @@ function App() {
       {/* <JSX /> */}
       {/* <WelcomeMessage /> */}
       {/* <Expressions /> */}
-      <Embedding />
+      {/* <Embedding /> */}
       <ProductInfo />
     </>
   )
