@@ -24,6 +24,11 @@ const ProductInfo = () => {
         <p>Current Month: {new Date().toLocaleString('default', { month: 'long' })}</p>
         <p>Current Day: {new Date().toLocaleString('default', { weekday: 'long' })}</p>
         <p>Current Hour: {new Date().getHours()}</p>
+        <p>Current Minute: {new Date().getMinutes()}</p>
+        <p>Current Second: {new Date().getSeconds()}</p>
+        <p>Current Timezone: {Intl.DateTimeFormat().resolvedOptions().timeZone}</p>
+        <p>Current Locale: {navigator.language}</p>
+        <p>Current User Agent: {navigator.userAgent}</p>
     </div>
   )
 }
