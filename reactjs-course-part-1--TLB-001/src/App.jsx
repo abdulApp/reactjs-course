@@ -1,6 +1,7 @@
 
 import './App.css'
 import Greeting from './Fundamentals/Components/Greeting'
+import ConditionalRendering from './Fundamentals/ConditionalRendering/ConditionalRendering'
 import Embedding from './Fundamentals/Embedding Dynamic Content/Embedding'
 import ProductInfo from './Fundamentals/Embedding Dynamic Content/ProductInfo'
 import Expressions from './Fundamentals/Expressions In JSX/Expressions'
@@ -25,7 +26,7 @@ function App() {
       <PropsChildren>
         <h1>Hello</h1>
       </PropsChildren> */}
-      
+      <ConditionalRendering isValid={true} />
     </>
   )
 }
