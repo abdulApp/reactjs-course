@@ -20,7 +20,7 @@ function App() {
       {/* <Embedding /> */}
       {/* <ProductInfo /> */}
       {/* <Lists /> */}
-      <Props />
+      <Props  name={"Abdul"}/>
     </>
   )
 }
