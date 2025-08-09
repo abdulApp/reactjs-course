@@ -16,7 +16,7 @@ function App() {
       {/* <WelcomeMessage /> */}
       {/* <Expressions /> */}
       {/* <Embedding /> */}
-      <ProductInfo />
+      {/* <ProductInfo /> */}
     </>
   )
 }
