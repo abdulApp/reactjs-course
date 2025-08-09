@@ -1,2 +1,2 @@
 # Conditional Rendering
-Conditional Rendering allows us to dynamically display differnt UI componenta or content 
+Conditional Rendering allows us to dynamically display differnt UI componenta or content based on specific conditions. This enables us to create more interactive and responsive user experiencess.
