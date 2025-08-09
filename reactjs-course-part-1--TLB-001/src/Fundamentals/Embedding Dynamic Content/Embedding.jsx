@@ -6,7 +6,7 @@ const Embedding = () => {
   return (
     <div>
         <h1>{greet}</h1>
-        <p>Date: {date}</p>
+        <p>Date: {date.getDate()}</p>
     </div>
   )
 }
