@@ -16,6 +16,7 @@ const ProductInfo = () => {
         <p>Price: ${product.price.toFixed(2)}</p>
         <p>{product.inStock ? 'In Stock' : 'Out of Stock'}</p>
         <p>{product.description}</p>
+        <p>Release Date: {product.releaseDate.toLocaleDateString()}</p>
     </div>
   )
 }
