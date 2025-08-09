@@ -29,6 +29,8 @@ const ProductInfo = () => {
         <p>Current Timezone: {Intl.DateTimeFormat().resolvedOptions().timeZone}</p>
         <p>Current Locale: {navigator.language}</p>
         <p>Current User Agent: {navigator.userAgent}</p>
+        <p>Current Platform: {navigator.platform}</p>
+        <p>Current Screen Width: {window.screen.width}px</p>
     </div>
   )
 }
