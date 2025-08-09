@@ -17,6 +17,7 @@ const ProductInfo = () => {
         <p>{product.inStock ? 'In Stock' : 'Out of Stock'}</p>
         <p>{product.description}</p>
         <p>Release Date: {product.releaseDate.toLocaleDateString()}</p>
+        <p>Ratings: {product.ratings} stars</p>
     </div>
   )
 }
