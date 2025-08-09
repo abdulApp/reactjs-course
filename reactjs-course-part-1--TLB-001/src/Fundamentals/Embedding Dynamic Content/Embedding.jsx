@@ -2,7 +2,7 @@ import React from 'react'
 
 const Embedding = () => {
     const greet = 'Hello, World!';
-    const date = new Date().toLocaleDateString();
+    const date = new Date();
   return (
     <div>
         <h1>{greet}</h1>
