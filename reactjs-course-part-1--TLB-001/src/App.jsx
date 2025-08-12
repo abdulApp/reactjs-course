@@ -4,6 +4,8 @@ import Greeting from './Fundamentals/Components/Greeting'
 import ConditionalRendering from './Fundamentals/ConditionalRendering/ConditionalRendering'
 import Embedding from './Fundamentals/Embedding Dynamic Content/Embedding'
 import ProductInfo from './Fundamentals/Embedding Dynamic Content/ProductInfo'
+import Events from './Fundamentals/Events/Events'
+import Move from './Fundamentals/Events/Move'
 import Expressions from './Fundamentals/Expressions In JSX/Expressions'
 import JSX from './Fundamentals/JSX/JSX'
 import WelcomeMessage from './Fundamentals/JSX/WelcomeMessage'
@@ -27,6 +29,8 @@ function App() {
         <h1>Hello</h1>
       </PropsChildren> */}
       <ConditionalRendering isValid={true} />
+      {/* <Events /> */}
+      <Move />
     </>
   )
 }
