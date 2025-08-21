@@ -12,6 +12,7 @@ import WelcomeMessage from './Fundamentals/JSX/WelcomeMessage'
 import Lists from './Fundamentals/Lists/Lists'
 import Props from './Fundamentals/props/Props'
 import PropsChildren from './Fundamentals/PropsChildren/PropsChildren'
+import CopyInput from './Portal/CopyInput'
 import Usestate from './State&Hooks/usestate'
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
       {/* <ConditionalRendering isValid={true} /> */}
       {/* <Events /> */}
       {/* <Move /> */}
-      <Usestate />
+      {/* <Usestate /> */}
+      <CopyInput />
     </>
   )
 }
