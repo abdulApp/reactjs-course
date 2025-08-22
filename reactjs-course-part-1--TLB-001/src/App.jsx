@@ -1,4 +1,5 @@
 
+import { Component } from 'react'
 import './App.css'
 import Greeting from './Fundamentals/Components/Greeting'
 import ConditionalRendering from './Fundamentals/ConditionalRendering/ConditionalRendering'
@@ -14,8 +15,11 @@ import Props from './Fundamentals/props/Props'
 import PropsChildren from './Fundamentals/PropsChildren/PropsChildren'
 import CopyInput from './Portal/CopyInput'
 import Usestate from './State&Hooks/usestate'
+import UseEffect from './UseEffect/UseEffect'
+import ComponentA from './Props/ComponentA'
 
 function App() {
+  const name = "Abdul"
 
   return (
     <>
@@ -34,7 +38,9 @@ function App() {
       {/* <Events /> */}
       {/* <Move /> */}
       {/* <Usestate /> */}
-      <CopyInput />
+      {/* <CopyInput /> */}
+      {/* <UseEffect /> */}
+      <ComponentA name={name} />
     </>
   )
 }
