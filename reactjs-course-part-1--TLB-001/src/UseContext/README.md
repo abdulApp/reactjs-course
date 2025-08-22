@@ -1,0 +1,7 @@
+# useContext()
+
+useContext Hook allows to access the context values
+provided by a Context object directly within a functional
+component. Context provides a way to pass data through
+the component tree without having to pass props down
+manually at every level
