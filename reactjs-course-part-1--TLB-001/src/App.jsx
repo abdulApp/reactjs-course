@@ -17,6 +17,7 @@ import CopyInput from './Portal/CopyInput'
 import Usestate from './State&Hooks/usestate'
 import UseEffect from './UseEffect/UseEffect'
 import ComponentA from './Props/ComponentA'
+import Context from './ContextAPI/Context'
 
 function App() {
   const name = "Abdul"
@@ -40,7 +41,8 @@ function App() {
       {/* <Usestate /> */}
       {/* <CopyInput /> */}
       {/* <UseEffect /> */}
-      <ComponentA name={name} />
+      <Context />
+      {/* <ComponentA name={name} /> */}
     </>
   )
 }

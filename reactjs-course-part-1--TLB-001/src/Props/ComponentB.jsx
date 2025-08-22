@@ -1,8 +1,11 @@
 import React from 'react'
+import { Data } from '../ContextAPI/Context';
 
 const ComponentB = () => {
   return (
-    <div>ComponentB</div>
+    <Data.Consumer>
+      
+    </Data.Consumer>
   )
 }
 
