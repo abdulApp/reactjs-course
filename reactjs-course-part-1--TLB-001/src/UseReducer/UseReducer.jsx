@@ -20,7 +20,7 @@ const reducer = (state, action) => {
     case "reset":
       return {...state, count: 0 };
     default:
-      throw new Error();
+      return state;
   }
 };
 
