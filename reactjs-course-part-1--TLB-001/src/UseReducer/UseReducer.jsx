@@ -1,0 +1,18 @@
+import React from 'react'
+
+const UseReducer = () => {
+    // A function you call to send actions | This is the starting value of state when 
+    // to the reducer, which then update   | the component is first rendered
+    // the state.                          |
+    //                 👇                                👇
+    // const [state, dispatch] = useReducer(reducer, initialState);
+    //         👆                             👆
+    // The current state value which you   | This is a function that describes how the state should change
+    // can use in your component           | based on the action. It takes the current state and an action
+    //                                     | as inputs, and returns the new state.
+  return (
+    <div>UseReducer</div>
+  )
+}
+
+export default UseReducer
