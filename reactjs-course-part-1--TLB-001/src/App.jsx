@@ -18,9 +18,10 @@ import Usestate from './State&Hooks/usestate'
 import UseEffect from './UseEffect/UseEffect'
 import ComponentA from './Props/ComponentA'
 import Context from './ContextAPI/Context'
+import UseContext from './UseContext/UseContext'
 
 function App() {
-  const name = "Abdul"
+  // const name = "Abdul"
 
   return (
     <>
@@ -41,7 +42,8 @@ function App() {
       {/* <Usestate /> */}
       {/* <CopyInput /> */}
       {/* <UseEffect /> */}
-      <Context />
+      {/* <Context /> */}
+      <UseContext />
       {/* <ComponentA name={name} /> */}
     </>
   )
