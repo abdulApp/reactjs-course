@@ -26,7 +26,9 @@ const reducer = (state, action) => {
 
 const UseReducer = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
-  return <div>UseReducer</div>;
+  return <div>
+    <h1>{state.count}</h1>
+  </div>;
 };
 
 export default UseReducer;

@@ -19,6 +19,7 @@ import UseEffect from './UseEffect/UseEffect'
 import ComponentA from './Props/ComponentA'
 import Context from './ContextAPI/Context'
 import UseContext from './UseContext/UseContext'
+import UseReducer from './UseReducer/UseReducer'
 
 function App() {
   // const name = "Abdul"
@@ -43,8 +44,9 @@ function App() {
       {/* <CopyInput /> */}
       {/* <UseEffect /> */}
       {/* <Context /> */}
-      <UseContext />
+      {/* <UseContext /> */}
       {/* <ComponentA name={name} /> */}
+      <UseReducer />
     </>
   )
 }
