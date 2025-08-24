@@ -3,11 +3,16 @@ import React, { useRef } from 'react'
 const UseRef = () => {
     const inputElement = useRef(null);
     console.log("element: ", inputElement);
+
+    const focusInput = () => {
+        // Access the input element and focus it
+        inputElement.current.focus();
+    };
     
   return (
     <div>
         <input ref={inputElement} type="text" />
-        <button onClick={() => inputElement.current.focus()}>Focus Input</button>
+        <button onClick={() => focusInput()}>Focus Input</button>
     </div>
   )
 }
