@@ -5,7 +5,10 @@ const UseRef = () => {
     console.log("element: ", inputElement);
     
   return (
-    <div>UseRef</div>
+    <div>
+        <input ref={inputElement} type="text" />
+        <button onClick={() => inputElement.current.focus()}>Focus Input</button>
+    </div>
   )
 }
 
