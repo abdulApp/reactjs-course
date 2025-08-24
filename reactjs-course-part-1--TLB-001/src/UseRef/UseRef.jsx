@@ -7,6 +7,7 @@ const UseRef = () => {
     const focusInput = () => {
         // Access the input element and focus it
         inputElement.current.focus();
+        inputElement.current.value = "Hello, World!";
     };
     
   return (
