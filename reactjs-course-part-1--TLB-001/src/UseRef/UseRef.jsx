@@ -1,7 +1,9 @@
 import React, { useRef } from 'react'
 
 const UseRef = () => {
-    const element = useRef(null)
+    const inputElement = useRef(null);
+    console.log("element: ", inputElement);
+    
   return (
     <div>UseRef</div>
   )

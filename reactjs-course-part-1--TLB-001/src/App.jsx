@@ -20,6 +20,7 @@ import ComponentA from './Props/ComponentA'
 import Context from './ContextAPI/Context'
 import UseContext from './UseContext/UseContext'
 import UseReducer from './UseReducer/UseReducer'
+import UseRef from './UseRef/UseRef'
 
 function App() {
   // const name = "Abdul"
@@ -46,7 +47,8 @@ function App() {
       {/* <Context /> */}
       {/* <UseContext /> */}
       {/* <ComponentA name={name} /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <UseRef />
     </>
   )
 }
